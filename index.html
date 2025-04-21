@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write("<h3>1. Write a program to print your name and address,</h3>");
+        document.write("<p>Name : Prabal Kumar</p>");
+        document.write("<p>Address : Government Engineering College Vaishali</p>");
+        
+        document.write("<h3>2. Write a program to check whether value and data-type of two variable are same.</h3>");
+        let a = 10;
+        let b = 10;
+        document.write("a=" + a + "<br>");
+        document.write("b=" + b + "<br>");
+        if(a == b) {
+            document.write("<p>Both are equal</p>");
+        } else {
+            document.write("<p>Both are not equal</p>");
+        }
+        if(typeof a == typeof b) {
+            document.write("Both are of same type " +typeof a + "<br>");
+        } else {
+            document.write("<p>Both are not of same type</p>");
+        }
+
+        document.write("<h3>3. Write a program to add two strings and return them with all alphabet capital.</h3>");
+        let str1="Prabal";
+        let str2="Kumar";
+        document.write("string 1 : " + str1 +"<br>");
+        document.write("string 1 : " +str2 +"<br>");
+
+        let str3=str1 + " " + str2;
+        document.write("after concatenation : " + str3.toUpperCase() + "<br>");
+
+        document.write("<h3>4. Write a JavaScript program to convert the length of a given string in bytes.</h3>");
+        let str4="Prabal Kumar";
+        document.write(str4 + "<br>");
+        document.write(str4.length + "  [char takes 1 byte] <br>");
+
+        document.write("<h3>5. Write a JavaScript program to round a number to a specified amount of digits.</h3>");
+        let num1 = 10.1591354689;
+        document.write("number = "+ num1 + "<br>");
+        const roundedNum = num1.toFixed(3);
+        document.write("rounded number is = " + roundedNum + "<br>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
